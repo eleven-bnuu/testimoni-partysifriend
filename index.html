@@ -1,0 +1,55 @@
+<html lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Testimoni Partysifriend
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+
+  </script>
+  <script src="https://kit.fontawesome.com/b80d961313.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Mandali&display=swap" rel="stylesheet">
+ </head>
+<body class="bg-white font-sans">
+
+
+  <!-- Logo -->
+  <header class="text-center bg-cover bg-center min-h-[250px]" style="background-image: url('./img/hgh.png');">
+  <img src="./img/lgp.png" alt="Logo Partysifriend" class="mx-auto w-32 h-auto pt-4">
+</header>
+
+  <!-- Judul -->
+  <section class="text-center mb-8">
+    <h1 class="text-3xl font-fjalla text-coklat">TESTIMONI</h1>
+  </section>
+
+  <!-- Form Testimoni -->
+  <section class="max-w-md mx-auto px-6">
+    <form id="formTesti" class="bg-white border border-gelap p-6 rounded-xl shadow-md space-y-4">
+
+      <div>
+        <label for="nama" class="block mb-1 font-semibold">Nama</label>
+        <input type="text" id="nama" placeholder="Nama" required class="input-field w-full rounded border border-gelap p-2">
+      </div>
+
+      <div>
+        <label for="pesan" class="block mb-1 font-semibold">Testimoni </label>
+        <textarea id="pesan" placeholder="Tulis testimoni..." required class="input-field w-full rounded border border-gelap p-2 h-24"></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit w-full py-3 mb-6 text-coklat font-semibold rounded-full border border-[#6c3517] hover:bg-gradient-to-r hover:from-[#6c3517] hover:to-[#e7d6bc] hover:text-white transition-colors">
+        Kirim
+      </button>
+
+      <p id="msgSuccess" class="text-coklat mt-2 hidden text-center">Testimoni berhasil dikirim!</p>
+    </form>
+  </section>
+<script type="module" src="formTesti.js"></script>
+</body>
+</html>

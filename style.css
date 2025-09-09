@@ -1,0 +1,38 @@
+.font-fjalla {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-mandali {
+  font-family: "Mandali", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-coklat {
+  color: #6c3517;
+}
+
+.bg-coklat {
+  background-color: #e7d6bc;
+}
+
+.bg-gelap {
+  background-color: #6c3517;
+}
+
+.border-gelap {
+  border-color: #6c3517;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #6c3517;
+  box-shadow: 0 0 0 2px rgba(108,53,23,0.3);
+}
+
+.btn-submit {
+  border: 2px solid #6c3517;
+  transition: all 0.3s ease;
+}
